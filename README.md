@@ -1,7 +1,7 @@
 # CRSF-Protocol-C
 The Crossfire Protocol (CRSF) is a serial communication protocol primarily used in the FPV drones for ultra-low latency and long-range control links. This C code helps to decode and transmit messages over a single serial interface connected to the Flight Controller.
 
-Reading and writing frames executed on different threads. Use with your program by updating the message.
+Reading and writing frames executed on different threads. Only RC packed message is supported. Use with your program by updating the message.
 
 Tested on Orange Pi5 Max board (Rockchip RK3588 ,ARM CPU) and Skystars F7 Mini HDPro , Betaflight Flight Controller (Firmware 2025.12.1)
 
